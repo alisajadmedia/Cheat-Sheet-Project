@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/Grid-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*----Hero-Page----*/
+.hero-page{
+    background-color: rgba(9, 81, 139, 0.712);
+    width: 1000px;
+    height: 600px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero-page h6{
+    text-align: left;
+    font-weight: 200;
+    padding: 10px 0px 0px 10px;
+    color: rgb(30, 203, 255);
+}
+
+.hero-page h1{
+    padding-top: 10px;
+    color: rgb(30, 184, 255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: -5px;
+}
+
+.hero-page h5{
+    color: rgb(71, 164, 240);
+    font-weight: 400;
+}
+
+/*----Table Section---*/
+.table-elements{
+    background-color: rgba(0, 104, 189, 0.37);
+    border: 1px solid #2378ad;
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.table-elements table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.table-elements thead{
+    color: #00e1ff;
+}
+
+.table-elements tbody{
+    color: #33c5ff;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+td,th{
+    padding: 4px 10px;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(12, 150, 230);
+ }
+
+address{
+    color: #00a2ff;
+    font-weight: 200;
+    font-size: 12px;
+}
